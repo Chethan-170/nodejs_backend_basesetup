@@ -1,4 +1,4 @@
-import express from 'express';
+Express Server Steps:
 
 // Step 1: Create the express application
 const app = express();
@@ -14,3 +14,7 @@ const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server at http://localhost:${port}`);
 });
+
+
+Useful links
+- https://expressjs.com/
